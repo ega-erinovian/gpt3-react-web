@@ -65,6 +65,16 @@
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition: ease-in-out .15s;
+    -webkit-transition: ease-in-out .15s;
+    -moz-transition: ease-in-out .15s;
+    -ms-transition: ease-in-out .15s;
+    -o-transition: ease-in-out .15s;
+}
+
+.gpt3__header-content__input button:hover{
+    background: #fff;
+    color: var(--color-button);
 }
 
 .gpt3__header-content__people{

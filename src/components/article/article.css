@@ -40,10 +40,28 @@
     color: #fff;
     margin-bottom: 5rem;
     cursor: pointer;
+    transition: all ease-in-out .15s;
+    -webkit-transition: all ease-in-out .15s;
+    -moz-transition: all ease-in-out .15s;
+    -ms-transition: all ease-in-out .15s;
+    -o-transition: all ease-in-out .15s;
+}
+
+.gpt3__blog-container_article-content h3:hover{
+    color: var(--color-button);
 }
 
 .gpt3__blog-container_article-content p:last-child{
     cursor: pointer;
+    transition: all ease-in-out .15s;
+    -webkit-transition: all ease-in-out .15s;
+    -moz-transition: all ease-in-out .15s;
+    -ms-transition: all ease-in-out .15s;
+    -o-transition: all ease-in-out .15s;
+}
+
+.gpt3__blog-container_article-content p:last-child:hover{
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 550px){
